@@ -4,8 +4,8 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development_credential: &development_credential
-  username: postgres
-  password: 123456789
+  username: username
+  password: password
 
 development:
   <<: *default
